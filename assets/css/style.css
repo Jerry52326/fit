@@ -4612,6 +4612,24 @@ hr {
   margin-bottom: 30px;
 }
 
+.footer-logo img {
+  width: 250px;
+  height: 150px;
+}
+@media (max-width: 768px) {
+  .footer-logo img {
+    width: 200px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo img {
+    width: 150px;
+    height: 90px;
+  } 
+}
+
 /* line 13, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_footer.scss */
 .footer-area .footer-bottom {
   border-top: 1px solid #1f2024;
