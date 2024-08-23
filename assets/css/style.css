@@ -120,6 +120,24 @@
 .boxed-btn.large-width {
   width: 220px;
 }
+.logo img {
+  width: 250px;
+  height: 150px;
+}
+@media (max-width: 768px) {
+  .logo img {
+    width: 200px;
+    height: 120px;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .logo img {
+    width: 150px;
+    height: 90px;
+  }
+}
 
 /*--
     - Overlay
