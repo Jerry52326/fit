@@ -4694,6 +4694,21 @@ hr {
   transition: 0.4s;
 }
 
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe57;
+}
+
 /* line 6, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-img {
   overflow: hidden;
